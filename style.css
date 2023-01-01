@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5878db;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  color: #040404;
+}
+
+.div1 {
+  background-color: white;
+  border-radius: 127px;
+  width: 650px;
+  height: 830px;
+  max-height: 1000px;
+  margin: 70px auto;
+  scale: 85%;
+  
+  /* overflow: hidden; */
+}
+.div2 {
+  display: flex;
+  background-color: #f9647b;
+  height: 200px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+
+  /* position: relative; */
+  border-top-right-radius: 127px;
+  border-top-left-radius: 127px;
+}
+.div2 p {
+  font-size: 50px;
+}
+.div2 input {
+  position: relative;
+  top: -35px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  display: inline;
+  font-size: 20px;
+  font-weight: 333px;
+  line-height: 30px;
+  padding: 0 12px;
+
+  color: #000000;
+}
+.add {
+  width: 45px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+.man {
+  position: relative;
+  top: -20px;
+  width: 250px;
+  height: 260px;
+  margin-left: 15px;
+  padding-bottom: 55px;
+}
+input::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #040404;
+}
+.Texts {
+  display: flex;
+  justify-content: end;
+
+  margin: 10px auto;
+  padding-left: 15px;
+  padding-right: 23px;
+
+  width: 470px;
+  height: 55px;
+  background: rgba(48, 151, 178, 0.68);
+  border-radius: 49.5px;
+}
+.Texts:hover {
+  background: rgba(101, 158, 173, 0.68);
+}
+.To-do {
+  margin-top: -20px;
+}
+
+.bin {
+  width: 30px;
+  height: 32px;
+  padding-top: 11px;
+}
+.done {
+  padding-right: 10px;
+  
+}
+.done1 {
+  padding-top: -10px;
+}
+.Texts p {
+  position: relative;
+  bottom: 2px;
+  line-height: 0px;
+  flex-grow: 1;
+}
+.btn{
+ 
+  position: relative;
+text-align: center;
+display: block;
+bottom: 2px;
+width: 250px;
+background-color: #f9647b;
+font-size: 22px ;
+}
+.btn:hover{
+  background-color: #ff8396;
+  border-color: rgba(48, 151, 178, 0.68); ;
+  
+}
+.hand{
+  cursor: pointer;
+}
+
+.lineTH{
+  text-decoration: line-through;
+}
+#Texttodo{
+  padding-left: 29px;
+ 
+  font-weight: 250;
+font-size: 37px;
+}
+#Textdone{
+  padding-left: 33px;
+ 
+  font-weight: 250;
+font-size: 37px;
+line-height: 10px;
+}
