@@ -28,8 +28,8 @@ function renderTasks(tasks) {
         <div  class='Texts'>
         
             <p id='line${i}'>${tasks[i]}</p>
-          <img  class='bin done' id='taskCheck${i}' id_translate2='${tasks[i]}' onclick="doneTasks(${i})" src='done.png'  alt='' />
-          <img  class='bin ' src='bin.png'  id='product${i}' id_translate='${tasks[i]}' onclick="deleted(${i})" alt='' />
+          <img  class='bin done hand' id='taskCheck${i}' id_translate2='${tasks[i]}' onclick="doneTasks(${i})" src='done.png'  alt='' />
+          <img  class='bin hand ' src='bin.png'  id='product${i}' id_translate='${tasks[i]}' onclick="deleted(${i})" alt='' />
         </div>`;
       // Task.id=`'${i}'`
       // var Task=document.getElementById(`'${i}'`)
