@@ -15,8 +15,8 @@ body {
   width: 650px;
   height: 830px;
   max-height: 1000px;
-  margin: 70px auto;
-  scale: 85%;
+  margin: -40px auto 0px auto;
+  scale: 80%;
   
   /* overflow: hidden; */
 }
