@@ -87,7 +87,6 @@ addBtn.addEventListener("click", function () {
 
 function doneTasks(i) {
   let doneList = document.getElementById("taskCheck" + i);
-  DTasks.pop();
   DTasks.push(doneList.getAttribute("id_translate2"));
   localStorage.setItem("done", JSON.stringify(DTasks));
   renderDone(DTasks);
@@ -103,7 +102,7 @@ function renderDone(DTasks2) {
            <img  class='bin1 ' src='9069 [Converted]-01.png'  id='product${i}' id_translate='${i}}'  alt='' />
         </div>`;
   }
-  doneEL.innerHTML+= donesum;
+  doneEL.innerHTML= donesum;
 
 }
 
