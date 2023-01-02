@@ -110,5 +110,6 @@ function renderDone(DTasks2) {
 
 deleteBtn.addEventListener("click", function () {
   localStorage.removeItem("done")
-  doneEL.innerHTML=""
+   DTasks = [];
+  renderDone(DTasks);
 });
